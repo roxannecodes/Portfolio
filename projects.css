@@ -1,0 +1,18 @@
+
+
+* {
+  box-sizing: border-box;
+  max-width: 960px;
+}
+
+
+body {
+  margin:0;
+  padding:0;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace;
+  max-width: 960px;
+
+
+
+}
