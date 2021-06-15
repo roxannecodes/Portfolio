@@ -1,52 +1,31 @@
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
+ 
 
 }
 
 
 body {
-  max-width: 100%;
+ max-width: 100%;
  font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 25px;
-
-  
+ font-size: 25px;
 }
 
-#header {
-  display: flex;
-  justify-content: flex-end;
- height:70px;
- font-family: 'Nanum Gothic Coding', monospace;
-
- background-color:rgb(231, 220, 206);
-   margin-left:50px;
- 
-  padding-top:25px;
- padding-left:50px;
- padding-right:50px;
-  
-
-}
 
 
 #icon-bar {
- 
-  
-  background-color: rgb(255, 163, 44); 
-  
-  width:50px;
-  height:100%;
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);  
+ background-color: rgb(255, 163, 44); 
+ width:50px;
+ height:100%;
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);  
 }
 
 .icon-container { 
-  margin-top: 75px;
-  
-
+ margin-top: 145px;
 }
 
 .icon-container a {
@@ -70,76 +49,84 @@ body {
   font-weight: bolder;
   margin-left:0;
   font-family:'Courier New', Courier, monospace ;
- 
 }
 
- #CV a:hover {
+#CV a:hover {
   background-color:  rgb(248, 94, 67);
   color:black;
+  text-decoration: none;
 }
   
-
-/*** NAV BAR ***/
-/* nav {
-  padding-top:3em;
-
+nav {
+ height:70px;
+ font-family: 'Nanum Gothic Coding', monospace;
+ margin-left:50px;
+ padding-top:25px;
+ padding-left:75px;
+ padding-right:25px;
 }
 
-
-nav ul{
+nav ul {
+ font-family: 'Courier New', Courier, monospace;
  display:flex;
-  justify-content: space-between;
-  float:right;
-
-
-  height: 50px;
-  list-style-type: none;
-  padding-left:5em;
-  padding-right:2em;
-
-
+ justify-content: flex-end;
+ list-style-type: none;
+ font-size: 1.7em;
 }
-
-
-
 
 nav ul li a {
-  color: rgb(44, 56, 54);
-  text-decoration: none;
-   padding: 1em 1em;
-  font-size: 30px;
-
-  font-family: 'Nanum Gothic Coding', monospace;
+ margin-left:25px;
+ color:black;
+ text-decoration: none;
 }
 
-#home-button{
-  
-  text-decoration:underline;
-  text-decoration-color:rgb(255, 75, 44);
-  text-decoration-thickness: .15em;  
-  text-underline-offset: .2em;
- 
-  transition-delay: 250ms;
-  font-weight:bold;
+
+#home-btn {
+ text-decoration:underline;
+ text-decoration-color:rgb(255, 75, 44);
+ text-decoration-thickness: .15em;text-underline-offset: .2em;     transition-delay: 250ms;
+ font-weight:bold;
+ opacity:.7;
 }
 
-nav a:hover{
+nav a:hover {
   color: black;
   padding-bottom:2em;
-  text-decoration:underline;
-  text-decoration-color:rgb(255, 75, 44);
-  text-decoration-thickness: .15em;  
-  text-underline-offset: .2em;
+  text-decoration: none;
   transition-delay: 250ms;
   font-weight:bold;
 }
 
 
- */
+main {
+  max-width:100%;
+  max-height:100%;
+  height:100vh;
+  background-color: beige;
+  margin-right:25px;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-left:75px;
 
+}
 
+.welcome-text {
+padding-left: 25px;
+padding-top:100px;
+width:75%;
+}
 
+.title {
 
+}
+
+.sub-title {
+
+}
+
+.welcome-img {
+
+}
 
 footer {
   background-color: rgb(255, 163, 44); 
@@ -155,5 +142,5 @@ footer {
   font-weight:bold;
   font-size:12px;
   font-family: 'Nanum Gothic Coding', monospace;
-  padding-left:75px;
+  padding-left:0px;
 }
