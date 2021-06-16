@@ -119,9 +119,17 @@ main {
   padding-left:25px;
 }
 
-#grid > div {
-
+#grid #box-2 #box-4 #box-6 {
+background-color: #598585;
+color:red;
 }
+
+#grid #box-1 #box-3 #box-5 {
+  background-color:red;
+  color: #598585;
+}
+
+
 
 footer {
   background-color: rgb(255, 163, 44); 
