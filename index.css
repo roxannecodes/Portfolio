@@ -387,11 +387,14 @@ and (orientation : portrait) {
 #icon-bar {
   background-color: rgb(255, 187, 0);
 }
+
+.icon-container {
+  margin-top:90px;
+}
+
 nav {
  
  padding-right:100px;
- 
-
 }
 
 nav ul {
@@ -416,12 +419,15 @@ main {
 }
 
 
-
+#home {
+  position: relative;
+  left:20px;
+}
 
 
 
 .title {
-  font-size: 95px;
+  font-size: 75px;
   padding-bottom: 0px;
 }
 
@@ -429,12 +435,12 @@ main {
 .sub-title {
 text-align:center;
 padding-top:0px;
-font-size:27px;
-width:125%;
+font-size:25px;
+width:105%;
 }
 
 .welcome-img {
-  zoom:normal;
+  zoom:0.85;
 }
 
 
