@@ -457,10 +457,102 @@ footer {
 @media only screen 
 and (max-width : 480px) {
 /* Styles */
+body {
+  zoom: 0.9;
+}
+
 #icon-bar {
-background-color: coral;
+  background-color:rgb(255, 187, 0);
+  width:45px;
+}
+
+.icon-container {
+  margin-top:70px;
+}
+
+.icon-container a {
+  font-size:10px;
+  padding-top:7px;
+}
+
+nav {
+ 
+ padding-right:0px;
+ 
+}
+
+nav ul {
+ font-size: 17px;
+ position: relative;
+ right:25px;
+ 
+
+}
+
+nav ul li a {
+ margin-left:30px;
+
+}
+
+
+main {  
+  max-width:100%;
+  max-height:100%;
+
+  margin-right:25px;
+  margin-top:50px;
+  margin-left:0px; 
+  padding-bottom:25px;
+}
+
+#home {
+  position: relative;
+  left:20px;
+}
+
+.welcome-text {
+  position: relative;
+  right:35px;
+  padding-bottom: 0;
+}
+
+.title {
+  font-size: 65px;
+  padding-bottom: 0px;
+}
+
+
+.sub-title {
+text-align:center;
+padding-top:0px;
+font-size:20px;
+width:125%;
+padding-bottom: 0;
+}
+
+.welcome-img {
+  zoom:0.8;
+  position: relative;
+  top:0;
+  left:25px;
+  padding-bottom:20px;
+}
+
+
+
+footer {
+  height:50px;
+  max-width: 110%;
 }
 
 
 }
+
+
+
+
+
+
+
+
 
