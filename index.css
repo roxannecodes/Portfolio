@@ -179,7 +179,7 @@ and (min-width : 1024px) {
 
 
 .icon-container { 
- margin-top: 117px;
+ margin-top: 100px;
 }
 
 .icon-container a {
@@ -217,12 +217,14 @@ nav ul li a {
   font-size:110px;
 }
 
+.title {
+  font-size: 115px;
+  padding-bottom:25px;
+}
 
 .welcome-img {
 zoom:1.25;
 }
-
-
 }
 
 
@@ -233,7 +235,38 @@ and (orientation : landscape) {
 /* Styles */
 
 #icon-bar {
-  background-color: powderblue;
+
+}
+
+body {
+  zoom:0.7;
+}
+
+nav {
+ padding-top:28px;;
+ padding-right:45px;
+}
+
+nav ul {
+ font-size: 1.6em;
+}
+
+nav ul li a {
+ margin-left:40px;
+
+}
+
+
+.title {
+  font-size: 85px;
+}
+
+
+.sub-title {
+text-align:center;
+padding-top:14px;
+font-size:27px;
+width:70%;
 }
 
 
