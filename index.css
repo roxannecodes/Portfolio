@@ -328,6 +328,10 @@ and (max-width : 992px) {
   font-size:20px;
 }
 
+main {
+  padding-bottom:0px;
+}
+
 
 nav {
  padding-top:20px;;
