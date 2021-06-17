@@ -102,7 +102,6 @@ nav a:hover {
   font-weight:bold;
 }
 
-/* Remove all specs for tablet and mobile-portrait  */
 
 main {  
   max-width:100%;
@@ -215,7 +214,9 @@ nav ul li a {
  text-decoration: none;
 }
 
-
+#home {
+  padding-bottom:92px;
+}
 
 .welcome-text {
   font-size:110px;
@@ -224,6 +225,14 @@ nav ul li a {
 .title {
   font-size: 115px;
   padding-bottom:25px;
+}
+
+.sub-title {
+  font-size:30px;
+width:70%;
+
+  position: relative;
+  right:25px;
 }
 
 .welcome-img {
