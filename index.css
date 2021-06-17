@@ -215,14 +215,13 @@ nav ul li a {
   font-size:110px;
   align-content: center;
   justify-items: center;
-  position: relative;
-  right:25px;
+
   
 }
 
 .title {
   font-size: 120px;
-  padding-bottom:25px;
+  padding-bottom:15px;
 }
 
 .sub-title {
@@ -231,6 +230,8 @@ nav ul li a {
  width:70%;
   align-self: center;
    text-align: center;
+     position: relative;
+  right:25px;
  
 }
 
