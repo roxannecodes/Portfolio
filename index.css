@@ -1,7 +1,5 @@
 * {
  box-sizing: border-box;
- 
-
 }
 
 
@@ -12,7 +10,6 @@ body {
  font-size: 25px;
  z-index: 0;
 }
-
 
 
 #icon-bar {
@@ -230,6 +227,7 @@ nav ul li a {
   text-align: center;
   position: relative;
   right:25px;
+
 }
 
 .welcome-img {
@@ -372,7 +370,9 @@ nav ul li a {
 text-align:center;
 padding-top:14px;
 font-size:22px;
-width:75%;
+width:65%;
+position: relative;
+right:35px;
 }
 
 .welcome-img {
@@ -464,7 +464,7 @@ footer {
 and (max-width : 480px) {
 /* Styles */
 body {
-  zoom: 0.9;
+  zoom: 0.8;
 }
 
 #icon-bar {
@@ -490,7 +490,7 @@ nav {
 nav ul {
  font-size: 17px;
  position: relative;
- right:25px;
+ right:40px;
  
 
 }
@@ -532,8 +532,11 @@ main {
 text-align:center;
 padding-top:0px;
 font-size:20px;
-width:125%;
+width:115%;
 padding-bottom: 0;
+position: relative;
+right:0;
+left:25px;
 }
 
 .welcome-img {
