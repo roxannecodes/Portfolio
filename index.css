@@ -177,7 +177,6 @@ and (min-width : 1024px) {
 /* Styles */
 #icon-bar {
   background-color:  rgb(255, 187, 0);
-  zoom:1.1;
 }
 
 
@@ -223,16 +222,15 @@ nav ul li a {
 }
 
 .title {
-  font-size: 115px;
+  font-size: 120px;
   padding-bottom:25px;
 }
 
 .sub-title {
+  padding-top:10px;
   font-size:30px;
-width:70%;
-
-  position: relative;
-  right:25px;
+ width:70%;
+  align-self: center;
 }
 
 .welcome-img {
