@@ -223,7 +223,13 @@ nav ul li a {
 
 .title {
   font-size: 115px;
-  padding-bottom:25px;
+  padding-bottom:10px;
+}
+
+.sub-title {
+  text-align: center;
+  position: relative;
+  right:25px;
 }
 
 .welcome-img {
