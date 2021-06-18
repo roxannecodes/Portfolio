@@ -178,6 +178,9 @@ and (min-width : 1024px) {
   zoom:1.1;
 }
 
+main {
+  padding-bottom:55px;
+}
 
 .icon-container { 
  margin-top: 100px;
