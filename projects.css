@@ -7,6 +7,7 @@ body {
  max-width: 100%;
  font-family: 'Nanum Gothic Coding', monospace;
  font-size: 25px;
+ max-height: 100%;
 }
 
 #icon-bar {
@@ -107,7 +108,7 @@ nav a:hover {
 }
 
 
-.grid {
+#grid {
   display: grid;
   padding-left:25px;
   font-family: 'Nanum Gothic Coding', monospace;
@@ -115,13 +116,13 @@ nav a:hover {
   grid-template-columns: repeat(2,1fr);
   max-width:800px;
   grid-row-gap: 45px;
-  grid-column-gap:0px;
+  grid-column-gap:45px;
   padding-bottom:75px;
 }
 
-.grid >div {
+#grid >div {
  
-  height:12rem;
+  height:14rem;
   width:20rem;
 
 }
@@ -139,7 +140,7 @@ background-color:rgb(255, 187, 0);
 
 footer {
   background-color: rgb(255, 187, 0);; 
-  position:relative;
+  position:fixed;
   bottom:0;
   left:0;
   width:100%;
@@ -152,4 +153,20 @@ footer {
   font-size:12px;
   font-family: 'Nanum Gothic Coding', monospace;
   padding-left:0px;
+}
+
+/* mobile queries */
+
+/* mobile-portrait ****** */
+
+@media screen and (max-width: 480px) {
+
+  body {
+  zoom:0.8;
+  }
+  #grid {
+    grid-template-columns: repeat(1,1fr);
+    grid-column: auto;
+    grid-row: auto;
+  }
 }
