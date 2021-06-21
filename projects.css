@@ -21,7 +21,7 @@ body {
 }
 
 .icon-container { 
- margin-top: 145px;
+ margin-top: 90px;
 }
 
 .icon-container a {
@@ -112,15 +112,17 @@ nav a:hover {
   padding-left:25px;
   font-family: 'Nanum Gothic Coding', monospace;
   font-size:12px;
-  grid-template-columns: repeat(3,1fr);
-  max-width:960px;
-  grid-row-gap: 2rem;
-  grid-column-gap:2rem;
+  grid-template-columns: repeat(2,1fr);
+  max-width:800px;
+  grid-row-gap: 45px;
+  grid-column-gap:0px;
+  padding-bottom:75px;
 }
 
 .grid >div {
  
-  height:6rem;
+  height:12rem;
+  width:20rem;
 
 }
  .box-2, .box-4, .box-6 {
@@ -137,7 +139,7 @@ background-color:rgb(255, 187, 0);
 
 footer {
   background-color: rgb(255, 187, 0);; 
-  position:fixed;
+  position:relative;
   bottom:0;
   left:0;
   width:100%;
