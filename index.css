@@ -484,10 +484,11 @@ body {
 
 .icon-container {
   margin-top:70px;
+ 
 }
 
-.icon-container a {
-  font-size:10px;
+#icon-bar a {
+  font-size:20px;
   padding-top:7px;
 }
 
