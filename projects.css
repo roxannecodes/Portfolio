@@ -10,7 +10,7 @@ body {
 }
 
 #icon-bar {
- background-color: rgb(255, 163, 44); 
+ background-color:rgb(255, 187, 0);
  width:50px;
  height:100%;
  position: fixed;
@@ -64,7 +64,8 @@ nav {
 nav ul {
 font-family: 'Courier New', Courier, monospace;
  display:flex;
- justify-content: flex-end;
+ justify-content: left;
+ align-items: left;
  list-style-type: none;
  font-size: 1.7em;
 }
@@ -83,7 +84,7 @@ nav ul li a {
  text-underline-offset: .2em;     
  transition-delay: 250ms;
  font-weight:bold;
- opacity:.7;
+
 }
 
 nav a:hover {
@@ -94,43 +95,48 @@ nav a:hover {
   font-weight:bold;
 }
 
-.title {
-  margin-left:75px;
-  font-size: 4em;
-  position: relative;
-  bottom:25px;
-
-}
-
-main {
+.wrapper {
+  padding-top:2rem;
   max-width:100%;
   max-height:100%;
-  background-color: beige;
+;
   margin-right:25px;
   margin-top:0px;
   margin-bottom:25px;
-  margin-left:75px;
+  margin-left:100px;
 }
 
 
-#grid {
+.grid {
+  display: grid;
   padding-left:25px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size:12px;
+  grid-template-columns: repeat(3,1fr);
+  max-width:960px;
+  grid-row-gap: 2rem;
+  grid-column-gap:2rem;
 }
 
- #box-2, #box-4, #box-6 {
-background-color: #598585;
-color:red;
+.grid >div {
+ 
+  height:6rem;
+
+}
+ .box-2, .box-4, .box-6 {
+color:rgb(255, 75, 44);
+background-color:rgb(255, 187, 0);
 }
 
-#box-1, #box-3, #box-5 {
-  background-color:red;
-  color: #598585;
+.box-1, .box-3, .box-5 {
+  background-color:rgb(255, 75, 44);
+  color: rgb(255, 187, 0);
 }
 
 
 
 footer {
-  background-color: rgb(255, 163, 44); 
+  background-color: rgb(255, 187, 0);; 
   position:fixed;
   bottom:0;
   left:0;
