@@ -98,7 +98,7 @@ nav a:hover {
 
 .wrapper {
   padding-top:2rem;
-  max-width:100%;
+  max-width:75%;
   max-height:100%;
 ;
   margin-right:25px;
@@ -115,8 +115,8 @@ nav a:hover {
   font-size:12px;
   grid-template-columns: repeat(2,1fr);
   max-width:800px;
-  grid-row-gap: 45px;
-  grid-column-gap:45px;
+  grid-row-gap: 55px;
+  grid-column-gap:auto;
   padding-bottom:75px;
 }
 
@@ -124,6 +124,9 @@ nav a:hover {
  
   height:14rem;
   width:20rem;
+  padding:1em;
+  display: flex;
+  flex-direction: column;
 
 }
  .box-2, .box-4, .box-6 {
@@ -163,7 +166,6 @@ footer {
   
   #grid {
     grid-template-columns: repeat(1,1fr);
-    grid-column: auto;
-    grid-row: auto;
+
   }
 }
