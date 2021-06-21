@@ -208,9 +208,20 @@ nav a:hover {
 /* Mobile phones***** */
 
 @media screen and (max-width:480px) {
+#icon-bar {
+
+  width:45px;
+}
+
+.icon-container {
+  margin-top:125px;
+}
+
+.icon-container a {
+  font-size:20px;
+}
 
 nav {
-
  padding-top:35px;
  padding-left:10px;
  padding-right:10px;
@@ -227,6 +238,10 @@ nav ul {
   padding-top:1em;
   padding-bottom:25px
 
+}
+
+footer {
+  position:relative;
 }
 
 }

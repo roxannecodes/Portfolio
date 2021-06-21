@@ -228,7 +228,9 @@ nav ul li a {
 
 }
 
-
+.welcome-img {
+  zoom:1.1;
+}
 
 footer h6 {
 font-size:18px;
