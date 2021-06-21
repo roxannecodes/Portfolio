@@ -160,10 +160,7 @@ footer {
 /* mobile-portrait ****** */
 
 @media screen and (max-width: 480px) {
-
-  body {
-  zoom:0.8;
-  }
+  
   #grid {
     grid-template-columns: repeat(1,1fr);
     grid-column: auto;
