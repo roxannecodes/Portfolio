@@ -147,7 +147,7 @@ width:75%;
 
 footer {
   background-color:  rgb(255, 187, 0);
-  position:relative;
+  position:fixed;
   bottom:0;
   left:0;
   width:100%;
