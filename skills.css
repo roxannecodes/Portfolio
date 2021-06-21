@@ -27,6 +27,7 @@ max-height: 100%;
 
 .icon-container { 
  margin-top: 115px;
+ 
 }
 
 .icon-container a {
@@ -184,11 +185,10 @@ nav a:hover {
   }
 
 
-
-  footer {
+footer {
   background-color:  rgb(255, 187, 0);
-  position:fixed;
-
+  position:relative;
+  top:15px;
   bottom:0;
   left:0;
   width:100%;
@@ -205,7 +205,14 @@ nav a:hover {
 
 /* Media Queries */
 
-/* Mobile phones***** */
+
+
+
+
+
+
+
+/* Mobile phones--portrait***** */
 
 @media screen and (max-width:480px) {
 #icon-bar {
@@ -215,6 +222,7 @@ nav a:hover {
 
 .icon-container {
   margin-top:125px;
+  margin-bottom:75px;
 }
 
 .icon-container a {
@@ -234,14 +242,12 @@ nav ul {
 }
 
 #skills {
-  margin-left:65px;
+  margin-left:47px;
   padding-top:1em;
   padding-bottom:25px
 
 }
 
-footer {
-  position:relative;
-}
+
 
 }
