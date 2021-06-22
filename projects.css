@@ -176,6 +176,14 @@ footer {
 /* mobile-portrait ****** */
 
 @media screen and (max-width: 680px) {
+  #icon-bar {
+    width:45px;
+  }
+
+  #icon-bar a {
+    font-size:28px;
+  }
+  
   nav {
     margin-left:0px;
     font-size:11px;

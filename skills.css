@@ -214,36 +214,36 @@ footer {
 
 /* Mobile phones--portrait***** */
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:780px) {
 #icon-bar {
 
   width:45px;
 }
 
 .icon-container {
-  margin-top:125px;
+  margin-top:115px;
   margin-bottom:75px;
 }
 
 .icon-container a {
-  font-size:20px;
+  font-size:25px;
 }
 
 nav {
  padding-top:35px;
- padding-left:10px;
+ padding-left:0px;
  padding-right:10px;
 
 }
 
 nav ul {
 
- font-size: 1.05em;
+ font-size: 18px;
 }
 
 #skills {
   margin-left:47px;
-  padding-top:1em;
+  padding-top:0.5em;
   padding-bottom:25px
 
 }
