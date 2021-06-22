@@ -117,7 +117,7 @@ nav a:hover {
   max-width:800px;
   grid-row-gap: 50px;
   grid-column-gap:4rem;
-  padding-bottom:75px;
+  padding-bottom:185px;
 }
 
 #grid >div {
