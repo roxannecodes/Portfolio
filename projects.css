@@ -188,7 +188,7 @@ footer {
 
   #grid {
     grid-template-columns: repeat(1,1fr);
-    padding-left:35px;
+    padding-left:25px;
   }
   
   #grid > div {
