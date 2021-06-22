@@ -180,10 +180,14 @@ footer {
     width:45px;
   }
 
+  .icon-container {
+    margin-top: 100px;
+  }
+
   #icon-bar a {
     font-size:28px;
   }
-  
+
   nav {
     margin-left:0px;
     font-size:11px;
