@@ -171,6 +171,12 @@ footer {
 @media only screen 
 and (min-width : 1024px) {
 /* Styles */
+
+
+body {
+  padding-top:1em;
+}
+
 #icon-bar {
   background-color:  rgb(255, 187, 0);
 }
@@ -213,7 +219,6 @@ nav ul li a {
 }
 
 
-
 .welcome-text {
   font-size:110px;
 }
@@ -227,12 +232,14 @@ nav ul li a {
   text-align: center;
   position: relative;
   right:25px;
+  width:75%;
+  font-size:28px;
 
 }
 
 .welcome-img {
   width:440px;
-  height:600px;
+  height:575px;
 }
 
 footer h6 {
@@ -294,7 +301,7 @@ nav ul li a {
 }
 
 .welcome-text {
- padding-left:25px; //
+ padding-left:25px; 
 }
 
 
@@ -309,7 +316,7 @@ text-align:center;
 padding-top:14px;
 font-size:27px;
 width:70%;
-padding-left: 38px; //
+padding-left: 38px; 
 
 }
 
@@ -411,7 +418,8 @@ and (orientation : portrait) {
 
 nav {
  
- padding-right:100px;
+ padding-right:50px;
+ padding-top:30px;
 }
 
 nav ul {
@@ -438,7 +446,7 @@ main {
 
 #home {
   position: relative;
-  left:20px;
+  left:25px;
 }
 
 
@@ -452,9 +460,13 @@ main {
 .sub-title {
 text-align:center;
 padding-top:0px;
-font-size:25px;
-width:105%;
+font-size:21px;
+width:115%;
+
 }
+
+
+
 
 .welcome-img {
   zoom:0.85;
