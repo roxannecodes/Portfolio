@@ -9,6 +9,7 @@ max-height: 100%;
  font-family: 'Nanum Gothic Coding', monospace;
  font-size: 25px;
  z-index: 0;
+ padding-top:15px;
   
 }
 
@@ -26,7 +27,7 @@ max-height: 100%;
 }
 
 .icon-container { 
- margin-top: 125px;
+ margin-top: 145px;
  
 }
 
@@ -72,7 +73,7 @@ nav ul {
  justify-content: left;
  align-items:left;
  list-style-type: none;
- font-size: 1.7em;
+ font-size: 1.8em;
 }
 
 nav ul li a {
@@ -250,5 +251,7 @@ nav ul {
 
 footer {
   width:110%;
+  position: relative;
+  top:125px;
 }
 }
