@@ -96,7 +96,10 @@ nav ul li a {
 nav a:hover {
   color: black;
   padding-bottom:2em;
-  text-decoration: none;
+  text-decoration:underline;
+  text-decoration-color:rgb(255, 75, 44);
+  text-decoration-thickness: .15em;
+  text-underline-offset: .3em;    
   transition-delay: 250ms;
   font-weight:bold;
 }
