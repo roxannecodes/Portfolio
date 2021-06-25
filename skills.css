@@ -74,7 +74,7 @@ nav ul {
  justify-content: left;
  align-items:left;
  list-style-type: none;
- font-size: 1.8em;
+ font-size: 1.7em;
 }
 
 nav ul li a {
@@ -88,7 +88,7 @@ nav ul li a {
  text-decoration:underline;
  text-decoration-color:rgb(255, 75, 44);
  text-decoration-thickness: .15em;
- text-underline-offset: .2em;    
+ text-underline-offset: .3em;    
  transition-delay: 250ms;
  font-weight:bold;
 }
@@ -105,7 +105,7 @@ nav a:hover {
   margin-left:75px;
   padding-top:1em;
   max-width: 700px;
-  padding-bottom:180px;
+  padding-bottom:57px;
    font-family: 'Courier New', Courier, monospace;
    display: flex;
    justify-content:center;
@@ -212,43 +212,40 @@ footer {
 /* Mobile phones--portrait***** */
 
 @media screen and (max-width:780px) {
-#icon-bar {
 
-  width:45px;
-}
+body {
+    padding-top:0.5em;
+  }
+  #icon-bar {
+    width:45px;
+  }
 
-.icon-container {
-  margin-top:115px;
-  margin-bottom:75px;
-}
+  .icon-container {
+    margin-top: 115px;
+  }
 
-.icon-container a {
-  font-size:25px;
-}
+  #icon-bar a {
+    font-size:25px;
+  }
 
-nav {
- padding-top:35px;
- padding-left:10px;
- padding-right:10px;
-
-}
-
-nav ul {
-
- font-size: 18px;
-}
+  nav {
+    margin-left:0px;
+    font-size:11px;
+    padding-left:0px;
+    padding-right:20px;
+  }
 
 #skills {
   margin-left:47px;
-  padding-top:0.5em;
-  padding-bottom:25px
+  padding-top:0.25em;
+  padding-bottom:15px
 
 }
 
 footer {
   width:110%;
   position: relative;
-  top:125px;
+  top:75px;
 }
 }
 
