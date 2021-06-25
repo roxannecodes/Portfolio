@@ -24,6 +24,7 @@ max-height: 100%;
  -ms-transform: translateY(-50%);
  transform: translateY(-50%);  
  z-index: 1;
+ left:0;
 }
 
 .icon-container { 
@@ -208,11 +209,6 @@ footer {
 
 
 
-
-
-
-
-
 /* Mobile phones--portrait***** */
 
 @media screen and (max-width:780px) {
@@ -232,7 +228,7 @@ footer {
 
 nav {
  padding-top:35px;
- padding-left:0px;
+ padding-left:10px;
  padding-right:10px;
 
 }
@@ -255,3 +251,4 @@ footer {
   top:125px;
 }
 }
+
