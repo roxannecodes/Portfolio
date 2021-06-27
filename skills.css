@@ -25,6 +25,7 @@ max-height: 100%;
  transform: translateY(-50%);  
  z-index: 1;
  left:0;
+
 }
 
 .icon-container { 
@@ -105,13 +106,16 @@ nav a:hover {
 }
 
 #skills {
-  margin-left:75px;
+  margin-left:100px;
   padding-top:1em;
   max-width: 700px;
   padding-bottom:57px;
    font-family: 'Courier New', Courier, monospace;
    display: flex;
    justify-content:center;
+   position: relative;
+   right:10px;
+   bottom:10px;
 }
 
   
@@ -130,7 +134,7 @@ nav a:hover {
 
   #skills .skill-bars .bar {
       padding: 2em 0;
-      padding-top:25px;
+      padding-top:35px;
   }
 
   #skills .skill-bars .bar .info span {
@@ -138,13 +142,14 @@ nav a:hover {
       font-weight: bold;
       color: #1c1c1c;
       border-radius:25px;
+      padding-bottom:20px;
       
   }
 
   #skills .skill-bars .bar .progress-line {
       position: relative;
-      height: 1em;
-      width: 95%;
+      height: 1.2em;
+      width: 100%;
       margin-top: .5em;
       border-radius: 25px;
   }
@@ -224,47 +229,137 @@ footer {
   padding-left:0px;
 }
 
-/* Media Queries */
+
+/* media queries */
 
 
 
-/* Mobile phones--portrait***** */
+/* tablets / mobile-landscape ****** */
 
-@media screen and (max-width:780px) {
+@media screen and (max-width: 768px) {
 
-body {
+  body {
     padding-top:0.5em;
   }
+  
   #icon-bar {
-    width:45px;
+    width:50px;
   }
 
   .icon-container {
-    margin-top: 115px;
+    margin-top: 100px;
   }
 
   #icon-bar a {
-    font-size:25px;
+    font-size:28px;
   }
 
   nav {
     margin-left:0px;
-    font-size:11px;
+    font-size:14px;
+    padding-left:20px;
+  }
+
+
+  footer h6 {
+   padding-left:20px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 575px){
+
+  body {
+    padding-top:0.5em;
+
+  }
+  #icon-bar {
+    width:35px;
+  }
+
+  .icon-container {
+    margin-top: 90px;
+  }
+
+  #icon-bar a {
+    font-size:20px;
+  }
+
+  nav {
+    margin-left:10px;
+    font-size:9px;
     padding-left:0px;
-    padding-right:20px;
+  }
+
+  nav ul li a {
+    margin-left:15px;
   }
 
 #skills {
-  margin-left:47px;
-  padding-top:0.25em;
-  padding-bottom:15px
-
-}
-
-footer {
-  width:110%;
   position: relative;
-  top:75px;
+  right:60px;
+  bottom:25px
 }
+
+ #skills .skill-bars{
+  padding-top:20px;
+  padding-left:20px;
 }
+
+
+}
+
+
+
+
+
+
+
+
+/* bug version 
+@media screen and (max-width: 575px) {
+
+body {
+    padding-top:0.5em;
+
+  }
+  #icon-bar {
+    width:35px;
+  }
+
+  .icon-container {
+    margin-top: 90px;
+  }
+
+  #icon-bar a {
+    font-size:20px;
+  }
+
+  nav {
+    margin-left:10px;
+    font-size:9px;
+    padding-left:0px;
+  }
+
+  nav ul li a {
+    margin-left:15px;
+  }
+
+  #skills {
+    position: relative;
+    bottom:50px;
+    right:75px;
+    padding-bottom:25px;
+    padding-top:25px;
+    font-size:12px;
+  }
+
+ #skills .skill-bars{
+  padding-top:20px;
+  padding-left:20px;
+}
+   
+  
+}
+
+*/
 
