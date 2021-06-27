@@ -265,13 +265,16 @@ footer {
    padding-left:20px;
   }
 }
-/* mobile */
+
+
+/* mobile ******* */
+
 @media screen and (max-width: 575px){
 
   body {
     padding-top:0.5em;
-
   }
+
   #icon-bar {
     width:35px;
   }
@@ -297,69 +300,21 @@ footer {
 #skills {
   position: relative;
   right:60px;
-  bottom:25px
+  bottom:25px;
+  font-size:15px;
 }
 
  #skills .skill-bars{
   padding-top:20px;
-  padding-left:20px;
+  padding-left:25px;
+}
+
 }
 
 
-}
 
 
 
 
 
-
-
-
-/* bug version 
-@media screen and (max-width: 575px) {
-
-body {
-    padding-top:0.5em;
-
-  }
-  #icon-bar {
-    width:35px;
-  }
-
-  .icon-container {
-    margin-top: 90px;
-  }
-
-  #icon-bar a {
-    font-size:20px;
-  }
-
-  nav {
-    margin-left:10px;
-    font-size:9px;
-    padding-left:0px;
-  }
-
-  nav ul li a {
-    margin-left:15px;
-  }
-
-  #skills {
-    position: relative;
-    bottom:50px;
-    right:75px;
-    padding-bottom:25px;
-    padding-top:25px;
-    font-size:12px;
-  }
-
- #skills .skill-bars{
-  padding-top:20px;
-  padding-left:20px;
-}
-   
-  
-}
-
-*/
 
