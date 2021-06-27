@@ -106,12 +106,12 @@ nav a:hover {
 
 .wrapper {
   padding-top:3rem;
-  max-width:100%;
+  max-width:80%;
   max-height:100%;
   margin-right:25px;
   margin-top:0px;
   margin-bottom:25px;
-  margin-left:100px;
+  padding-left:100px;
   padding-bottom:150px;
 }
 
@@ -165,6 +165,7 @@ font-weight:bolder;
 footer {
   background-color: rgb(255, 187, 0);; 
   position:relative;
+  top:75px;
   bottom:0;
   left:0;
   width:100%;
@@ -186,7 +187,7 @@ footer {
 
 /* mobile-portrait ****** */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
 
   body {
     padding-top:0.5em;
@@ -205,12 +206,12 @@ footer {
 
   nav {
     margin-left:0px;
-    font-size:11px;
-    padding-left:0;
+    font-size:14px;
+    padding-left:20px;
   }
 
   .wrapper {
-    margin-left:45px;
+    padding-left:75px;
     padding-bottom:25px;
     padding-top:25px;
   }
