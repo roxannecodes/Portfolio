@@ -115,38 +115,45 @@ nav a:hover {
 }
 
   
-  #skills .skill-bars{
+  #skills .skill-bars {
       
    margin:25px;
-   padding-left:25px;
+   padding-left:50px;
+   padding-right:25px;
+   padding-top:50px;
+   padding-bottom:50px;
+   
   width:100%;
   background-color: rgb(136, 185, 185) ;
   border-radius: 25px;
   }
 
-
-  #skills .skill-bars .bar{
+  #skills .skill-bars .bar {
       padding: 2em 0;
+      padding-top:25px;
   }
-  #skills .skill-bars .bar .info span{
-      font-size: 1.2em;
+
+  #skills .skill-bars .bar .info span {
+      font-size: 1.5em;
       font-weight: bold;
       color: #1c1c1c;
       border-radius:25px;
-    
+      
   }
-  #skills .skill-bars .bar .progress-line{
+
+  #skills .skill-bars .bar .progress-line {
       position: relative;
       height: 1em;
       width: 95%;
-    
-      margin-top: .3em;
+      margin-top: .5em;
       border-radius: 25px;
   }
-  #skills .skill-bars .bar .progress-line:last-child{
-      margin-bottom: .5em;
+
+  #skills .skill-bars .bar .progress-line:last-child {
+      margin-bottom: 1em;
       background-color:rgb(255, 187, 0);
   }
+
   #skills .skill-bars .bar .progress-line span {
       height: 100%;
       width: 95%;
@@ -163,7 +170,7 @@ nav a:hover {
       border-radius:25px;
   }
 
- #skills .skill-bars .bar .progress-line .three{
+ #skills .skill-bars .bar .progress-line .three {
       height: 100%;
       width: 0%;
       background-color: rgb(240, 81, 69);
@@ -172,7 +179,7 @@ nav a:hover {
   }
 
 
- #skills .skill-bars .bar .progress-line .four{
+ #skills .skill-bars .bar .progress-line .four {
       height: 100%;
       width: 20%;
       background-color: rgb(240, 81, 69);
@@ -181,9 +188,18 @@ nav a:hover {
   }
 
 
- #skills .skill-bars .bar .progress-line .five{
+ #skills .skill-bars .bar .progress-line .five {
       height: 100%;
       width: 15%;
+      background-color: rgb(240, 81, 69);
+      position: absolute;
+      border-radius:25px;
+  }
+
+
+ #skills .skill-bars .bar .progress-line .six {
+      height: 100%;
+      width: 75%;
       background-color: rgb(240, 81, 69);
       position: absolute;
       border-radius:25px;
