@@ -275,7 +275,7 @@ footer {
   }
 
   #icon-bar {
-    width:35px;
+    width:45px;
   }
 
   .icon-container {
@@ -283,17 +283,18 @@ footer {
   }
 
   #icon-bar a {
-    font-size:20px;
+    font-size:24px;
   }
 
   nav {
-    margin-left:10px;
-    font-size:9px;
+    margin-left:0px;
+    font-size:11px;
     padding-left:0px;
+   
   }
 
   nav ul li a {
-    margin-left:15px;
+    margin-left:22px;
   }
 
 #skills {
@@ -301,11 +302,14 @@ footer {
   right:60px;
   bottom:25px;
   font-size:12px;
+  width:370px;
+  padding-left: 12px;
 }
 
  #skills .skill-bars{
   padding-top:20px;
   padding-left:25px;
+  
 }
 
 }
@@ -314,7 +318,10 @@ footer {
 
 /* Extra-small -- mobile portrait** */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 399px){
 
+#icon-bar {
+  background-color: paleturquoise;
 }
 
+}
