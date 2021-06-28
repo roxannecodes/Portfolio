@@ -127,7 +127,7 @@ nav a:hover {
    padding-bottom:50px;
    
   width:100%;
-  background-color: rgb(136, 185, 185) ;
+  background-color: rgb(148, 198, 198) ;
   border-radius: 25px;
   }
 
@@ -161,7 +161,7 @@ nav a:hover {
   #skills .skill-bars .bar .progress-line span {
       height: 100%;
       width: 95%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
@@ -169,7 +169,7 @@ nav a:hover {
  #skills .skill-bars .bar .progress-line .two {
       height: 100%;
       width: 45%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
@@ -177,7 +177,7 @@ nav a:hover {
  #skills .skill-bars .bar .progress-line .three {
       height: 100%;
       width: 0%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
@@ -186,7 +186,7 @@ nav a:hover {
  #skills .skill-bars .bar .progress-line .four {
       height: 100%;
       width: 20%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
@@ -195,7 +195,7 @@ nav a:hover {
  #skills .skill-bars .bar .progress-line .five {
       height: 100%;
       width: 15%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
@@ -204,7 +204,7 @@ nav a:hover {
  #skills .skill-bars .bar .progress-line .six {
       height: 100%;
       width: 75%;
-      background-color: rgb(240, 81, 69);
+      background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
