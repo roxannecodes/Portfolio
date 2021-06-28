@@ -5,7 +5,6 @@
 
 body {
  max-width: 100%;
-max-height: 100%;
  font-family: 'Nanum Gothic Coding', monospace;
  font-size: 25px;
  z-index: 0;
@@ -320,19 +319,42 @@ footer {
 
 @media screen and (max-width: 399px){
 
+
 body {
-  transform: scale(0.75,0.75); 
+  padding-top:1em;
+  transform: scale(0.77,0.80); 
   transform-origin: top;
   position: relative;
-  right:40px;
-  background-color: pink;
-}
-
-
-#icon-bar {
-  background-color: paleturquoise;
-}
+  right:43px;
+  bottom: 5px;
   
+ /* *** FIGURE OUT HOW TO GET RID OF THE BLOCK OF SPACE BELOW THE BODY */
+
+}
+#icon-bar {
+  width:45px;
+}
+
+.icon-container {
+  margin-top:125px;
+}
+
+#icon-bar a {
+  font-size:25px;
+}
+
+nav {
+  padding-top:25px;
+}
+
+#skills {
+  padding-top:25px;
+ }
+
+footer {
+  bottom:0;
+  width:130%;
+}
 
 
 }
