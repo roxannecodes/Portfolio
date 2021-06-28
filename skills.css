@@ -320,8 +320,19 @@ footer {
 
 @media screen and (max-width: 399px){
 
+body {
+  transform: scale(0.75,0.75); 
+  transform-origin: top;
+  position: relative;
+  right:40px;
+  background-color: pink;
+}
+
+
 #icon-bar {
   background-color: paleturquoise;
 }
+  
+
 
 }
