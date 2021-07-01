@@ -415,16 +415,32 @@ body {
   margin-top:125px;
 }
 
-
 nav {
-  padding-top:25px;
-  
+  padding-top:25px; 
 }
 
 #skills {
-  padding-top:25px;
+  margin-left:25px;
+  padding-top:0px;
+  max-width: 550px;
+  padding-bottom:57px;
+   position: relative;
+   right:10px;
+   bottom:15px;
 }
 
+ #skills .skill-bars {
+      
+   margin:25px;
+   padding-left:25px;
+   padding-right:25px;
+   padding-top:25px;
+   padding-bottom:50px;
+   
+  width:75%;
+  background-color: rgb(148, 198, 198) ;
+  border-radius: 25px;
+  }
 footer {
   bottom:0;
   width:100%;
@@ -432,28 +448,50 @@ footer {
 }
 
 
+/* small phones (iphones)--------*/
+
 @media screen and (max-width: 376px){
-
-body {
-
-}
-#icon-bar {
-  width:40px;
-}
-
-footer {
-  position: relative;
-  top:150px;
-  height:35px;
-  padding:1em;
-  padding-bottom:2em;
-  font-size:14px;
-}
   
 
+body {
+    padding-top:1.2em;
+  }
+  
+ #icon-bar {
+    width:40px;
+    background-color: red;
+  }
+
+.icon-container {
+    margin-top: 95px;
+  }
+  
+  #icon-bar a, #CV {
+    font-size:21px;
+    margin-top:20px;
+  }
+
+  nav {
+    margin-left:20px;
+    padding-left:10px;
+    padding-right:55px;
+  }
+ nav ul {
+   justify-content:center;
+   align-items:center;
+ 
+ }
+  nav ul li a {
+     font-size:16px;
+     margin-left:30px;
+  }
 
 
 
 
+ footer {
+   padding-top: 15px;
+   height:45px;
+ }
 
 }

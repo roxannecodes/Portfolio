@@ -266,16 +266,17 @@ body {
 
 nav {
   margin-left: 50px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 95px;
+  padding-right: 0px;
+  font-size:10px;
 }
 
 nav ul {
-  font-size:1.5em;
+  font-size:1.7em;
 }
 
 nav ul li a {
-margin-left:32px;
+margin-left:25px;
 }
 
 
@@ -621,9 +622,16 @@ body {
 
   nav {
     margin-left:20px;
-    font-size:11px;
     padding-left:50px;
-    padding-right:50px;
+    padding-right:20px;
+  }
+ nav ul {
+   justify-content:center;
+ 
+ }
+  nav ul li a {
+     font-size:16px;
+     margin-left:30px;
   }
 
 main {

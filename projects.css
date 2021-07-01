@@ -311,6 +311,8 @@ body {
     padding-left:0px;
   }
 
+  
+
   .wrapper {
     padding-left:55px;
     padding-bottom:25px;
@@ -349,46 +351,54 @@ footer {
 }
 
 
-/* smaller portrait------ */
+/* small phones (iphones)--------*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px){
+  
 
 body {
-    padding-top:0.5em;
-
+    padding-top:1.2em;
   }
-  #icon-bar {
-    width:35px;
-  }
-
-  .icon-container {
-    margin-top: 100px;
+  
+ #icon-bar {
+    width:40px;
+    background-color: red;
   }
 
-  #icon-bar a {
-    font-size:20px;
+.icon-container {
+    margin-top: 95px;
+  }
+  
+  #icon-bar a, #CV {
+    font-size:21px;
+    margin-top:20px;
   }
 
   nav {
-    height:60px;
-    margin-left:0px;
-    font-size:9px;
-    padding-left:0px;
+    margin-left:20px;
+    padding-left:10px;
+    padding-right:55px;
   }
-
+ nav ul {
+   justify-content:center;
+   align-items:center;
+ 
+ }
   nav ul li a {
-    margin-left:15px;
+     font-size:16px;
+     margin-left:30px;
   }
 
-  .wrapper {
-    padding-left:35px;
-    padding-bottom:25px;
-    padding-top:15px;
-  }
+.wrapper {
+  margin-top:17px;
+  padding-top:0px;
+  padding-bottom:0px;
 
-  #grid {
+}
+
+#grid {
     grid-template-columns: repeat(1,1fr);
-    padding-left:25px;
+    padding-left:38px;
     padding-bottom:25px;
     max-width:500px;
     grid-row-gap: 30px;
@@ -421,14 +431,11 @@ body {
 background-color:rgb(148, 198, 198) ;
 }
 
-footer{
-  height:35px;
-  padding:1em;
-  padding-bottom:2em;
-  font-size:14px;
-}
+ footer {
+   padding-top: 15px;
+   height:45px;
+ 
+ }
 
 }
-
-
 
