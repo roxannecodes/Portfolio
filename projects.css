@@ -273,6 +273,73 @@ footer {
   height:50px;
 }
 
+  footer h6 {
+   padding-left:20px;
+
+  }
+}
+
+/* mobile */
+
+/* portrait */
+
+@media screen and (max-width: 578px) {
+
+#icon-bar {
+    width:45px;
+  }
+
+body {
+    padding-top:1em;
+  }
+  #icon-bar {
+    width:50px;
+  }
+
+  .icon-container {
+    margin-top: 125px;
+  }
+
+  #icon-bar a {
+    font-size:25px;
+  }
+
+  nav {
+    margin-left:0px;
+    font-size:11px;
+    padding-left:0px;
+  }
+
+  .wrapper {
+    padding-left:55px;
+    padding-bottom:25px;
+    padding-top:25px;
+  }
+
+  #grid {
+    grid-template-columns: repeat(1,1fr);
+    padding-left:25px;
+    padding-bottom:25px;
+    max-width:500px;
+    
+  }
+  
+  #grid > div {
+    width:19rem;
+  }
+.box-2, .box-4 {
+ background-color:rgb(249, 101, 75);
+ color: rgb(70, 139, 134);
+}
+
+.box-1, .box-3 {
+  color:rgb(201, 57, 32);
+background-color:rgb(148, 198, 198) ;
+}
+
+footer {
+  height:50px;
+}
 
   footer h6 {
    padding-left:20px;
@@ -281,10 +348,9 @@ footer {
 }
 
 
+/* smaller portrait------ */
 
-/* mobile */
-
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 375px) {
 
 body {
     padding-top:0.5em;
@@ -352,6 +418,13 @@ body {
 .box-1, .box-3 {
   color:rgb(201, 57, 32);
 background-color:rgb(148, 198, 198) ;
+}
+
+footer{
+  height:35px;
+  padding:1em;
+  padding-bottom:2em;
+  font-size:14px;
 }
 
 }
