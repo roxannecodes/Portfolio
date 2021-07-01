@@ -4,12 +4,12 @@
 
 
 body {
+min-height: 100vh;
  max-width: 100%;
  font-family: 'Nanum Gothic Coding', monospace;
  font-size: 25px;
  z-index: 0;
  padding-top:1.5em;
-  
 }
 
 
