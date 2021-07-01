@@ -5,7 +5,7 @@
 
 body {
  max-width: 100%;
- max-height: 100%;
+ min-height: 100vh;
  font-family: 'Nanum Gothic Coding', monospace;
  font-size: 25px;
  z-index: 0;
@@ -540,7 +540,7 @@ footer {
 
 /****************** Smartphones Portrait ----------- */
 @media only screen 
-and (max-width : 430px)  {
+and (max-width : 445px)  {
 
 #icon-bar {
   width:45px;
@@ -614,49 +614,56 @@ body {
     margin-top: 95px;
   }
   
-  #icon-bar a {
-    font-size:25px;
+  #icon-bar a, #CV {
+    font-size:21px;
+    margin-top:20px;
   }
 
   nav {
     margin-left:20px;
-    font-size:12px;
+    font-size:11px;
     padding-left:50px;
-    padding-right:25px;
+    padding-right:50px;
   }
 
-#home .welcome-text {
-height:220px;
-max-width:110%;
-}
-
-#home .title {
-font-size: 55px;
-}
-
-#home .welcome-text .sub-title {
- max-width:110%;
- font-size:18px;
-}
-
-#home img {
-  width:340px;
-  height:520px;
-  padding-left:25px;
-  padding-top:30px;
+main {
+  margin-top:25px;
+  padding-top:0px;
   padding-bottom:0px;
 
 }
 
-main {
-  padding-top:1.5em;
+  #home .welcome-text {
+   height:220px;
+   max-width:110%;
+   position: relative;
+   right: 10px;
 }
+
+  #home .title {
+   font-size: 50px;
+}
+
+ #home .welcome-text .sub-title {
+   max-width:110%;
+   font-size:18px;
+}
+
+ #home img {
+    width:340px;
+    height:520px;
+    padding-left:25px;
+    padding-top:30px;
+    padding-bottom:0px;
+    margin:0px;
+ }
 
 
 
  footer {
    padding-top: 15px;
    height:45px;
+ 
  }
 
 
