@@ -29,7 +29,7 @@ body {
  margin-top: 140px;
 }
 
-.icon-container a {
+#icon-bar a {
   text-align: center;
   color:black;
   display:block;
@@ -315,7 +315,7 @@ padding-left:25px;
 
 
 #home img {
-  width:42 0px;
+  width:420px;
   height:520px;
   padding-left:25px;
   padding-right:25px;
@@ -339,7 +339,7 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
 body {
-  padding-top:3em;
+  padding-top:2em;
 }
 
 
@@ -348,8 +348,8 @@ body {
 }
 
 #icon-bar a {
-  font-size:35px;
-  padding-bottom:25px;
+  font-size:28px;
+  padding-bottom:15px;
 }
 .icon-container {
   margin-top:150px;
@@ -415,7 +415,7 @@ max-width:80%;
 
 
 footer h6 {
-  font-size:1.7em;
+  font-size:1.3em;
 } 
 }
 
@@ -492,6 +492,19 @@ max-width:80%;
 @media only screen 
 and (max-width:599px)  {
 
+#icon-bar {
+  width:50px;
+}
+
+.icon-container { 
+ margin-top: 120px;
+}
+
+#icon-bar a {
+  margin-top:20px;
+  font-size:26px;
+}
+
 nav ul {
   font-size:1.3em;
 }
@@ -520,16 +533,17 @@ font-size: 75px;
   padding-left:25px;
   padding-top:25px;
 }
-
+footer {
+  height:50px;
+}
 }
 
 /****************** Smartphones Portrait ----------- */
 @media only screen 
-and (max-width : 579px)  {
+and (max-width : 430px)  {
 
 #icon-bar {
   width:45px;
-  background-color:blue;
 }
 
 body {
@@ -570,9 +584,11 @@ body {
   }
 
   #home img {
-    
-    padding-left:0px;
-    padding-right:0px;
+  width:340px;
+  height:510px;
+  padding-left:0px;
+  padding-top:0px;
+
   }
 
  footer {
@@ -585,12 +601,6 @@ body {
 
 @media screen and (max-width: 376px){
   
-#icon-bar {
-  background-color:rgb(128, 0, 75);
-  width:45px;
-}
-
-
 
 body {
     padding-top:1.2em;
@@ -609,45 +619,52 @@ body {
   }
 
   nav {
-    margin-left:25px;
-    font-size:13px;
+    margin-left:20px;
+    font-size:12px;
     padding-left:50px;
     padding-right:25px;
   }
 
-  main {
-    margin-top:25px;
-  }
+#home .welcome-text {
+height:220px;
+max-width:110%;
+}
 
-  #home .welcome-text{
-    max-width:115%;
-    height:260px;
-  }
+#home .title {
+font-size: 55px;
+}
 
-  #home .sub-title {
-    width:90%;
-    font-size:15px;
-  }
+#home .welcome-text .sub-title {
+ max-width:110%;
+ font-size:18px;
+}
 
-  #home img {
-    
-    padding-left:23px;
-  }
+#home img {
+  width:340px;
+  height:520px;
+  padding-left:25px;
+  padding-top:30px;
+  padding-bottom:0px;
+
+}
+
+main {
+  padding-top:1.5em;
+}
+
+
 
  footer {
    padding-top: 15px;
    height:45px;
  }
+
+
 }
 
 
 
 
-
-
-
-
-/* *****TARGET iPHONES SEPARATELY---especially for Mobile-L layouts and smaller screens (older models)!!!!***** */
 
 
 

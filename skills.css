@@ -255,7 +255,7 @@ footer {
 }
 }
 
-/* tablets-portrait / mobile-landscape ****** */
+/* tablets- / mobile-landscape ****** */
 
 @media screen and (max-width: 768px) {
 
@@ -297,7 +297,7 @@ footer {
 }
 
 
-/* mobile ******* */
+/*  wide portrait******* */
 
 @media screen and (max-width: 600px){
 
@@ -305,18 +305,21 @@ footer {
     padding-top:0.5em;
   }
 
-  #icon-bar {
-    width:45px;
-    background-color:red;
-  }
 
-  .icon-container {
-    margin-top: 100px;
-  }
+#icon-bar {
 
-  #icon-bar a {
-    font-size:24px;
-  }
+  width:50px;
+}
+
+.icon-container { 
+ margin-top: 120px;
+}
+
+#icon-bar a {
+  margin-top:24px;
+  font-size:26px;
+}
+ 
 
   nav {
     margin-left:0px;
@@ -350,9 +353,7 @@ footer {
 
 }
 
-
-
-/* Extra-small -- mobile portrait** */
+/* mobile portrait** */
 
 @media screen and (max-width: 450px){
 
@@ -364,26 +365,42 @@ body {
 }
 
 #icon-bar {
-  background-color:green;
-  
+  width:40px;
 }
 .icon-container {
-  margin-top:125px;
+  margin-top:100px;
 }
 
 
 nav {
   padding-top:25px;
+  
 }
 
 #skills {
   padding-top:25px;
- }
+}
 
 footer {
   bottom:0;
-  width:130%;
+  width:100%;
+}
 }
 
 
+@media screen and (max-width: 376px){
+
+body {
+  zoom:0.8;
+}
+#icon-bar {
+  width:40px;
+}
+
+footer {
+  position: relative;
+  top:150px;
+  width:100%;
+}
+  
 }
