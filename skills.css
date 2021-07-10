@@ -176,7 +176,7 @@ nav a:hover {
 
  #skills .skill-bars .bar .progress-line .three {
       height: 100%;
-      width: 0%;
+      width: 15%;
       background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
@@ -203,12 +203,20 @@ nav a:hover {
 
  #skills .skill-bars .bar .progress-line .six {
       height: 100%;
-      width: 75%;
+      width: 5%;
       background-color: rgb(249, 101, 75);
       position: absolute;
       border-radius:25px;
   }
 
+
+ #skills .skill-bars .bar .progress-line .seven {
+  height: 100%;
+  width: 0%;
+  background-color: rgb(249, 101, 75);
+  position: absolute;
+  border-radius:25px;
+}
 
 footer {
   background-color:  rgb(255, 187, 0);
