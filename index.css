@@ -342,7 +342,6 @@ body {
   padding-top:2em;
 }
 
-
 #icon-bar {
   width:60px;
 }
@@ -426,7 +425,10 @@ footer h6 {
 .icon-container {
   margin-top:120px;
 }
-
+#icon-bar {
+  width:60px;
+  background-color:blue; 
+}
 nav ul {
  font-size: 1.6em;
  justify-content: center;
@@ -515,7 +517,7 @@ nav ul li a{
 
 #home .welcome-text {
 height:300px;
-max-width:80%;
+max-width:90%;
 }
 
 #home .title {
