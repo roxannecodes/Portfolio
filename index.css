@@ -29,6 +29,16 @@ body {
  margin-top: 140px;
 }
 
+
+#CV ,#hacker-rank, #exercism {
+  text-align:center;
+  font-size: 30px;
+  margin-top:30px;
+  font-weight: bolder;
+  margin-left:0;
+  font-family:'Courier New', Courier, monospace ;
+}
+
 #icon-bar a {
   text-align: center;
   color:black;
@@ -39,25 +49,9 @@ body {
 
 }
 
-
-.icon-container a:hover {
+#icon-bar a:hover {
   background-color:  rgb(248, 94, 67);
   color:black;
-}
-
-#CV {
-  text-align:center;
-  font-size: 30px;
-  margin-top:30px;
-  font-weight: bolder;
-  margin-left:0;
-  font-family:'Courier New', Courier, monospace ;
-}
-
-#CV a:hover {
-  background-color:  rgb(248, 94, 67);
-  color:black;
-  text-decoration: none;
 }
   
 nav {
